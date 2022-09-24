@@ -1,8 +1,35 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{1E6F3C87-7AFA-4999-8ECA-D002BF4561C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoRPG_V2", "ProjetoRPG_V2\ProjetoRPG_V2.csproj", "{2E5AEA2A-2AF0-4F9C-8B91-4D6AD2B5FA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico", "CaixaEletronico\CaixaEletronico.csproj", "{ADC652F7-F8E0-4435-864D-DBE97A496F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginaDeLogin", "PaginaDeLogin\PaginaDeLogin.csproj", "{636365E4-F4AB-474F-AEFF-868C9BBDE012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E5AEA2A-2AF0-4F9C-8B91-4D6AD2B5FA8A} = {1E6F3C87-7AFA-4999-8ECA-D002BF4561C2}
+		{ADC652F7-F8E0-4435-864D-DBE97A496F4F} = {1E6F3C87-7AFA-4999-8ECA-D002BF4561C2}
+		{636365E4-F4AB-474F-AEFF-868C9BBDE012} = {1E6F3C87-7AFA-4999-8ECA-D002BF4561C2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E5AEA2A-2AF0-4F9C-8B91-4D6AD2B5FA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5AEA2A-2AF0-4F9C-8B91-4D6AD2B5FA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5AEA2A-2AF0-4F9C-8B91-4D6AD2B5FA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5AEA2A-2AF0-4F9C-8B91-4D6AD2B5FA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC652F7-F8E0-4435-864D-DBE97A496F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC652F7-F8E0-4435-864D-DBE97A496F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC652F7-F8E0-4435-864D-DBE97A496F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC652F7-F8E0-4435-864D-DBE97A496F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636365E4-F4AB-474F-AEFF-868C9BBDE012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636365E4-F4AB-474F-AEFF-868C9BBDE012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636365E4-F4AB-474F-AEFF-868C9BBDE012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636365E4-F4AB-474F-AEFF-868C9BBDE012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

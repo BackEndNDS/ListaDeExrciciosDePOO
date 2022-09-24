@@ -1,0 +1,15 @@
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\bin\Debug\net6.0\CaixaEletronico.exe
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\bin\Debug\net6.0\CaixaEletronico.deps.json
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\bin\Debug\net6.0\CaixaEletronico.runtimeconfig.json
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\bin\Debug\net6.0\CaixaEletronico.dll
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\bin\Debug\net6.0\CaixaEletronico.pdb
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\CaixaEletronico.csproj.AssemblyReference.cache
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\CaixaEletronico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\CaixaEletronico.AssemblyInfoInputs.cache
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\CaixaEletronico.AssemblyInfo.cs
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\CaixaEletronico.csproj.CoreCompileInputs.cache
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\CaixaEletronico.dll
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\refint\CaixaEletronico.dll
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\CaixaEletronico.pdb
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\CaixaEletronico.genruntimeconfig.cache
+C:\Users\natan\OneDrive\Documentos\Scripts\Csharp\EstudosDeCsharp\ListaDeExrciciosDePOO\CaixaEletronico\obj\Debug\net6.0\ref\CaixaEletronico.dll

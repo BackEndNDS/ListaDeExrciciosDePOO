@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4V5X31XM1pfX7ZyqpGU8CQzuyer4YVFbl78A6d4nVdvnRH9gAtkF8UnW6Th5+13gXjN8wcxcj2I4FsNs/EO8JA==",
+  "dgSpecHash": "WN9dG6PkKYR3gfeR2QJsNpqaMH6rsxJ4SPNKm+Z48e52jUbW/+DK5JvTU9Csb0KLxgmfjXU6JKj+NxocXG2vAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natan\\OneDrive\\Documentos\\Scripts\\Csharp\\EstudosDeCsharp\\ListaDeExrciciosDePOO\\CaixaEletronico\\CaixaEletronico.csproj",
+  "projectFilePath": "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/CaixaEletronico/CaixaEletronico.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

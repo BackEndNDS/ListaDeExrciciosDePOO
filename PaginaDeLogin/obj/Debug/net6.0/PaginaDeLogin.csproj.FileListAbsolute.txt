@@ -1,0 +1,15 @@
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/bin/Debug/net6.0/PaginaDeLogin
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/bin/Debug/net6.0/PaginaDeLogin.deps.json
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/bin/Debug/net6.0/PaginaDeLogin.runtimeconfig.json
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/bin/Debug/net6.0/PaginaDeLogin.dll
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/bin/Debug/net6.0/PaginaDeLogin.pdb
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/PaginaDeLogin.csproj.AssemblyReference.cache
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/PaginaDeLogin.GeneratedMSBuildEditorConfig.editorconfig
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/PaginaDeLogin.AssemblyInfoInputs.cache
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/PaginaDeLogin.AssemblyInfo.cs
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/PaginaDeLogin.csproj.CoreCompileInputs.cache
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/PaginaDeLogin.dll
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/refint/PaginaDeLogin.dll
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/PaginaDeLogin.pdb
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/PaginaDeLogin.genruntimeconfig.cache
+/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/Debug/net6.0/ref/PaginaDeLogin.dll

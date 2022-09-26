@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/CaixaEletronico/CaixaEletronico.csproj": {}
+    "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/PaginaDeLogin.csproj": {}
   },
   "projects": {
-    "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/CaixaEletronico/CaixaEletronico.csproj": {
+    "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/PaginaDeLogin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/CaixaEletronico/CaixaEletronico.csproj",
-        "projectName": "CaixaEletronico",
-        "projectPath": "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/CaixaEletronico/CaixaEletronico.csproj",
+        "projectUniqueName": "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/PaginaDeLogin.csproj",
+        "projectName": "PaginaDeLogin",
+        "projectPath": "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/PaginaDeLogin.csproj",
         "packagesPath": "/home/natananel/.nuget/packages/",
-        "outputPath": "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/CaixaEletronico/obj/",
+        "outputPath": "/home/natananel/RiderProjects/ListaDeExrciciosDePOO/PaginaDeLogin/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/natananel/.nuget/NuGet/NuGet.Config"

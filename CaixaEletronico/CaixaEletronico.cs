@@ -2,7 +2,7 @@
 
 namespace CaixaEletronico;
 
-public static class PaginaDeLogin
+public static class CaixaEletronico
 {
     public static void Main(string[] args)
     {
@@ -32,7 +32,7 @@ public static class PaginaDeLogin
                 {
                     Console.Clear();
                     
-                    Console.WriteLine("\nO sistema deve conter ao menos um usuário para funcionar!");
+                    Console.WriteLine("O sistema deve conter ao menos um usuário para funcionar!");
                     
                     Thread.Sleep(3000);
                     
@@ -69,12 +69,9 @@ public static class PaginaDeLogin
         
         Console.WriteLine("===== Cadastrar usuário =====");
         Console.WriteLine("Informe o seu nome: ");
-        var nome = Console.ReadLine();
+        usuario.Nome = Console.ReadLine();
         Console.WriteLine("Informe uma senha: ");
-        var senha = Console.ReadLine();
-
-        usuario.Nome = nome;
-        usuario.Senha = senha;
+        usuario.Senha = Console.ReadLine();
 
         if (usuario.Nome == string.Empty || usuario.Senha == string.Empty)
         {
@@ -91,6 +88,13 @@ public static class PaginaDeLogin
         Console.Clear();
 
         var usuarioLogado = Login(usuarioList);
+        
+        FazerOperacoes(usuarioList, usuarioLogado);
+    }
+
+    public static void FazerOperacoes(List<Usuario> usuarioList, Usuario usuarioLogado)
+    {
+        Console.Clear();
         
         Console.WriteLine("===== SysCaixa =====");
         Console.WriteLine("1- Depositar");
@@ -109,18 +113,10 @@ public static class PaginaDeLogin
                 Depositar(usuarioLogado);
                 
                 Console.WriteLine("\nValor depositado com sucesso!");
-
-                var opcaoOperacao = ContinuarOperacao();
-
-                if (opcaoOperacao == 1)
-                {
-                    AcessarCaixa(usuarioList);
-                } 
-                if (opcaoOperacao == 2)
-                {
-                    TelaInicial(usuarioList);
-                }
                 
+                Thread.Sleep(3000);
+                
+                FazerOperacoes(usuarioList, usuarioLogado);
             } break;
             
             case 2:
@@ -129,39 +125,21 @@ public static class PaginaDeLogin
                 
                 Console.WriteLine("\nValor sacado com sucesso!");
 
-                var opcaoOperacao = ContinuarOperacao();
-
-                if (opcaoOperacao == 1)
-                {
-                    AcessarCaixa(usuarioList);
-                } 
-                if (opcaoOperacao == 2)
-                {
-                    TelaInicial(usuarioList);
-                }
+                Thread.Sleep(3000);
+                
+                FazerOperacoes(usuarioList, usuarioLogado);
             } break;
 
             case 3:
             {
                 VerificarSaldo(usuarioLogado);
-                
-                var opcaoOperacao = ContinuarOperacao();
 
-                if (opcaoOperacao == 1)
-                {
-                    AcessarCaixa(usuarioList);
-                } 
-                if (opcaoOperacao == 2)
-                {
-                    TelaInicial(usuarioList);
-                }
-                
+                FazerOperacoes(usuarioList, usuarioLogado);
             } break;
             
-            default: AcessarCaixa(usuarioList); break;
+            default: FazerOperacoes(usuarioList, usuarioLogado);; break;
         }
     }
-
     public static Usuario Depositar(Usuario usuario)
     {
         Console.Clear();
@@ -227,22 +205,8 @@ public static class PaginaDeLogin
     {
         Console.Clear();
         
-        Console.WriteLine("===== Veerificar saldo =====");
-        Console.WriteLine("Usuario: ");
-        var nomeUsuario = Console.ReadLine();
-        Console.WriteLine("Senha: ");
-        var senha = Console.ReadLine();
-
-        if (nomeUsuario != usuario.Nome || senha != usuario.Senha)
-        {
-            Console.WriteLine("\nUm ou mais campos estão incorretos! Por favor corrija-os");
-            
-            Thread.Sleep(3000);
-
-            VerificarSaldo(usuario);
-        }
-        
-        Console.WriteLine($"\nSaldo atual: {usuario.Saldo}");
+        Console.WriteLine("===== Saldo =====");
+        Console.WriteLine($"Saldo atual: {usuario.Saldo} R$");
         
         Thread.Sleep(3000);
     }
@@ -275,22 +239,5 @@ public static class PaginaDeLogin
         Console.Clear(); 
         
         return usuarioExistente;
-    }
-
-    public static int ContinuarOperacao()
-    {
-        Console.Clear();
-        
-        Console.WriteLine("Deseja continuar a operação?");
-        Console.WriteLine("1- Sim");
-        Console.WriteLine("2- Não");
-        int opcao = int.Parse(Console.ReadLine());
-
-        if (opcao < 1 || opcao > 2 )
-        {
-            Console.WriteLine("\nPor favor informe um valor válido!");
-            ContinuarOperacao();
-        }
-        return opcao;
     }
 }

@@ -2,7 +2,7 @@ using PaginaDeLogin.Entities;
 
 namespace PaginaDeLogin;
 
-public class PaginaDeLogin
+public static class PaginaDeLogin
 {
     public static void Main(string[] args)
     {
@@ -27,7 +27,7 @@ public class PaginaDeLogin
             case 1:
             {
                 Login(usuarios);
-            }; break;
+            } break;
             
             case 2:
             {
@@ -42,7 +42,7 @@ public class PaginaDeLogin
                 Thread.Sleep(3000);
                 
                 TelaInicial(usuarios);
-            }; break;
+            } break;
             
             case 0: System.Environment.Exit(0); break;
                 
@@ -86,19 +86,16 @@ public class PaginaDeLogin
         
         Console.WriteLine("===== Signin =====");
         Console.WriteLine("Nome: ");
-        var nome = Console.ReadLine();
+        usuario.Nome = Console.ReadLine();
         Console.WriteLine("Senha: ");
-        var senha = Console.ReadLine();
+        usuario.Senha = Console.ReadLine();
 
-        if (nome == string.Empty || senha == string.Empty)
+        if (usuario.Nome == string.Empty || usuario.Senha == string.Empty)
         {
             Console.WriteLine("\nUm ou mais campos estão incorretos! Por favor corrija-os");
             Thread.Sleep(3000);
             Signin(usuario);
         }
-        
-        usuario.Nome = nome;
-        usuario.Senha = senha;
 
         return usuario;
     }
